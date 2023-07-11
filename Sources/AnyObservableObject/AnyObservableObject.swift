@@ -9,6 +9,6 @@ import SwiftUI
 import Combine
 
 @available(macOS 11.0, *)
-protocol AnyObservableObject: AnyObject {
+public protocol AnyObservableObject: AnyObject {
     var objectWillChange: ObservableObjectPublisher { get }
 }
