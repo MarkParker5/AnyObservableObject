@@ -14,7 +14,7 @@ import Combine
  
  - Important: At runtime, the wrapped value must conform to ``AnyObservableObject``.
  */
-@available(macOS 11.0, *)
+@available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
 @propertyWrapper
 public struct AnyObservedObject<ObjectType>: DynamicProperty {
     
