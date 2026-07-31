@@ -1,3 +1,17 @@
+<!-- coffee -->
+<a href="https://buymeacoffee.com/markparker5" target="_blank">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://markparker.me/banners/coffee-dark.webp"
+    />
+    <img
+      alt="Did this solve your problem? If it saved your time, you owe me a coffee"
+      src="https://markparker.me/banners/coffee-light.webp"
+    />
+  </picture>
+</a>
+
 # AnyObservableObject
 Equivalents to SwiftUI's property wrappers but without compile-time type restrictions. The lack of compile-time restrictions means that you don't need generics if you defined type as a protocol.
 
